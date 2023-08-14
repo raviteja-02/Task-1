@@ -1,0 +1,207 @@
+/* General styling */
+body {
+    font-family: 'SamsungSharpSans', arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero {
+    background-image: url('https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-desktop-120x32.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+
+/* CTA button */
+.cta-button {
+    display: inline-block;
+    background-color: #FF4C29;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FF7F66;
+}
+
+#slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.slideshow {
+    display: none;
+    width: 100%;
+}
+
+/* Specifications Section */
+#specs {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+/* Sub-section styling */
+.sub-section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sub-section h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.sub-section p {
+    margin: 8px 0;
+    color: #666;
+}
+
+/* Styling for specific details */
+.sub-section strong {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .sub-section {
+        padding: 15px;
+    }
+}
+
+.center-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.center-nav li {
+    font-size: 18px;
+}
+
+.center-nav li:hover {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.center-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.center-nav a:hover {
+    color: white;
+}
+
+.options {
+    margin-top: 15px;
+}
+
+.storage-option,
+.color-option {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.storage-option:hover,
+.color-option:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.image-display {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+#color-image {
+    max-width: 50%;
+    max-height: 50%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
